@@ -27,7 +27,7 @@ function checkAge(name, age){
     let tooYoungMsg = `Sorry ${name} you are not old enough to drive`;    
 
     if (age < 16){
-        consolg.log(tooYoungMsg);
+        console.log(tooYoungMsg);
     }else{
         console.log(oldEnoughMsg);
     }
@@ -66,7 +66,7 @@ console.log(checkQuadrant(6,30))
 //Exercise 4
 console.log("Exercise 4 \n============\n");
 function whatTypeOfTriangle(a,b,c){
-    let isValid= isValidTriangle(a,b,c);
+    let isValid = "";
     if(isValid){
         if(a == b && b == c){
             return `Equilateral`;
